@@ -1,0 +1,16 @@
+# export DefaultImModule=fcitx
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
+# export XMODIFIERS="@im=fcitx"
+
+export LANG="ja_JP.UTF-8"
+export XMODIFIERS="@im=fcitx"
+export XMODIFIER="@im=fcitx"
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export DefaultIMModule=fcitx
+export GDK_DPI_SCALE=1.1
+
+# a setting for dual-monitor with HP Soectre and Dell U2145
+xrandr --output eDP1 --primary --mode 3840x2160 --pos 0x2100 --rotate normal --output DP1 --mode 1920x1200 --pos 0x0 --rotate normal --output DP2 --off --output HDMI1 --off --output HDMI2 --off --output VIRTUAL1 --off
+xrandr --output DP1 --scale 1.75x1.75
