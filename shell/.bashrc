@@ -158,3 +158,5 @@ alias push='git push'
 alias st='git status'
 alias mg='git merge'
 alias fc='git fetch'
+
+alias spotify='spotify --force-device-scale-factor=2'
