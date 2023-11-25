@@ -1,0 +1,24 @@
+[core]
+modules = spotify, nic, cpu, memory, disk, battery, date, time, brightness, pasink, pasource, pacman, aur-update
+autohide = cpu, memory
+theme = iceberg-dark-powerline
+
+[module-parameters]
+# playerctl.hide=true
+spotify.format={artist} - {title} ({album})
+spotify.scrolling.width=15
+spotify.scrolling.makewide=true
+spotify.scrolling.bounce=false
+spotify.scrolling.speed=2
+nic.format={ssid}: {state} {strength}
+memory.format={available} AVAIL.
+disk.format={left} AVAIL.
+disk.left-click=thunar
+date.format=%Y/%m/%d %a
+date.locale=en
+time.format=%H:%M:%S
+brightness.use_acpi=true
+brightness.device_path=/sys/class/backlight/*
+brightness.interval=1s
+pacman.sum=true
+aur-update.format=AUR: {}
