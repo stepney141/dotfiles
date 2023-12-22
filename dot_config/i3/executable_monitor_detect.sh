@@ -5,11 +5,11 @@
 
 st_prev="disconnected"
 thinkpad_x13_embedded_display="ELAN901C:00 04F3:2FE6"
-hdmi_name="HDMI-A-0"
+hdmi_name="HDMI-A-1"
 
 while :
 do
-    st_next=$(cat /sys/class/drm/card1-HDMI-A-1/status)
+    st_next=$(cat /sys/class/drm/*$hdmi_name/status)
     if [ $st_prev != $st_next ]; then
         st_prev=$st_next
         if [ $st_next = "connected" ]; then
