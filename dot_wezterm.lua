@@ -11,7 +11,7 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
-config.color_scheme = 'PaleNightHC'
+config.color_scheme = 'PhD (base16)'
 
 config.window_background_opacity = 0.8
 config.text_background_opacity = 1.0
