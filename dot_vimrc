@@ -4,4 +4,3 @@ syntax on
 set showmatch
 set mouse=a
 set guifont=FiraCode
-

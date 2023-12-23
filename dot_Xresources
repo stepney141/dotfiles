@@ -15,7 +15,7 @@ Xcursor.size:  0
 
 !! MesloLGS NFはpowerlevel10k用のフォント
 !! ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
-URxvt.font:                       xft:Noto Sans Mono:size=10, xft:UDEV Gothic NF:size=10, xft:Terminess Nerd Font Mono, xft:MesloLGS NF:size=10, xft:IPAGothic:size=10, xft:NotoFontsEmoji:style=regular:size=10, xft:font-symbola:size=10
+URxvt.font:                       xft:Noto Sans Mono:size=10, xft:UDEV Gothic NF:size=10, xft:Terminess Nerd Font Mono, xft:MesloLGS NF:size=10, xft:IPAGothic:size=10, xft:Noto Emoji:style=regular:size=10, xft:Symbola:size=10
 URxvt.letterSpace:                -2
 URxvt.scrollBar:                  true
 URxvt.mouseWheelScrollPage:       false
