@@ -11,6 +11,8 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
+config.color_scheme = 'PaleNightHC'
+
 config.window_background_opacity = 0.8
 config.text_background_opacity = 1.0
 
@@ -22,9 +24,6 @@ config.font = wezterm.font_with_fallback {
   'Noto Sans Mono', 'UDEV Gothic NF', 'Terminess Nerd Font Mono', 'MesloLGS NF', 'Noto Emoji', 'Symbola',
 }
 
-
--- For example, changing the color scheme:
-config.color_scheme = 'tokyonight_moon'
 
 -- and finally, return the configuration to wezterm
 return config
