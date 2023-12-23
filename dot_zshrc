@@ -376,13 +376,3 @@ compinit
 # powerline-daemon -q
 # . /usr/share/powerline/bindings/zsh/powerline.zsh
 
-export EDITOR="/usr/bin/vim"
-export PATH="$HOME/.local/bin":"$HOME/.local/lib/julia-1.8.2/bin":$PATH
-export GPG_TTY=$(tty)
-export DENO_INSTALL="/home/stepney141/.deno"
-export PATH="$DENO_INSTALL/bin:$PATH"
-
-[ -f "/home/stepney141/.ghcup/env" ] && source "/home/stepney141/.ghcup/env" # ghcup-env
-
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
