@@ -376,3 +376,5 @@ compinit
 # powerline-daemon -q
 # . /usr/share/powerline/bindings/zsh/powerline.zsh
 
+eval "$(starship init zsh)"
+
