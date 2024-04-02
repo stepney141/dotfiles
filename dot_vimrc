@@ -3,4 +3,4 @@ set laststatus=2
 syntax on
 set showmatch
 set mouse=a
-set guifont=FiraCode
+set guifont=UDEV\ Gothic
