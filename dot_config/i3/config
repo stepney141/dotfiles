@@ -44,7 +44,7 @@ exec_always --no-startup-id blueman-applet
 exec --no-startup-id fcitx5
 
 # Automatically enable extrnal HDMI outputs
-exec --no-startup-id $HOME/.config/i3/monitor_detect.sh
+# exec --no-startup-id $HOME/.config/i3/monitor_detect.sh
 
 # Set wallpaper
 exec --no-startup-id feh --bg-scale ~/Pictures/magi_wallpaper_3.jpg
@@ -212,6 +212,9 @@ bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 bindsym Print exec xfce4-screenshooter
+
+# select external window
+bindsym $mod+Shift+d exec $HOME/.config/rofi/external_display_selector.sh
 
 # Set shut down, restart and locking features
 # bindsym $mod+0 mode "$mode_system"
