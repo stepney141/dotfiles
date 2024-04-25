@@ -57,6 +57,9 @@ exec --no-startup-id xfce4-power-manager
 # Enable the login manager for suspends/hibernates etc.
 exec_always --no-startup-id /usr/bin/light-locker
 
+# Configure the external keyboad
+exec_always --no-startup-id ~/.config/external-keyboard.sh
+
 # exec --no-startup-id wal -R
 
 # Start polybar to display a workspace bar 
